@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;  
+    font-family: "Poppins", sans-serif;
+}
+
+p, a{
+    font-family: "Open Sans", sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: navy;
+    color: white;
+}
+
+nav{
+    background-image: linear-gradient(rgba(10, 60, 130, 0.829),rgba(33, 77, 187, 0.736)),url(../images/iulistration/home-hero-bg.jpg);
+    width: 100%;
+    height: 63x0px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.head h2{
+font-size: 55px;
+color: #242A56;
+font-weight: bold;
+}
+
+.make h4{ 
+    font-size: 25px;
+color: #242A56;
+font-weight: bold;
+
+}
+
+footer{
+    background-color: #242A56;
+    width: 100%;
+    height: 190vh;
+}
+
+.note img{
+    width: 100px;
+}
+
+.foot{
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+
+.box{
+    width: 50%;
+    margin-left: 60px;
+}
+
+.note img{
+    width: 160px;
+}
+
+.foot{
+    width: 25%;
+}
+footer{
+    height: 105vh;
+}
+
+}
+
+
+@media only screen and (min-width: 992px){
+    
+    nav{
+        background-image: linear-gradient(rgba(66, 111, 174, 0.829),rgba(40, 66, 134, 0.736)),url(../images/iulistration/home-hero-bg.jpg);
+        width: 100%;
+        height: 750px;
+        background-position: center center;
+        background-size: cover;
+    }
+.box{
+    width: 35%;
+    margin-left: 100px;
+}
+
+.note img{
+    width: 300px;
+}
+footer{
+    height: 60vh;
+}
+
+
+}
